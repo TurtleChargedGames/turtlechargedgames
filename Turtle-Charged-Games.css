@@ -9,8 +9,8 @@
 
 .u-section-1 .u-image-1 {
   min-height: 649px;
-  background-image: url("images/favicon.png?rand=abd5");
-  background-position: 50% 13.86%;
+  background-image: url("images/Logo_vector_512.png");
+  background-position: 50% 50%;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -209,8 +209,11 @@
   padding: 30px 60px;
 }
 
-.u-section-3 .u-layout-cell-2 {
+.u-section-3 .u-image-2 {
   min-height: 572px;
+  background-image: url("images/attack.png");
+  background-position: 23.59% 89.51%;
+  background-size: auto 120%;
 }
 
 .u-section-3 .u-container-layout-2 {
@@ -226,11 +229,15 @@
 .u-section-3 .u-text-2 {
   text-align: center;
   font-weight: 700;
+  text-shadow: 0 2px 23px rgba(0,0,0,1);
   margin: 0 31px;
 }
 
 .u-section-3 .u-text-3 {
   text-align: center;
+  font-size: 1.125rem;
+  text-shadow: 2px 2px 22px rgba(0,0,0,1);
+  font-weight: 700;
   margin: 20px 0 0;
 }
 
@@ -239,7 +246,8 @@
   border-style: none;
   text-align: center;
   transition-duration: 0.5s;
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  box-shadow: 2px 2px 25px 0 rgba(0,0,0,1);
+  font-weight: 700;
   margin: 20px auto 0;
   padding: 10px 36px 10px 35px;
 }
@@ -253,7 +261,7 @@
     min-height: 472px;
   }
 
-  .u-section-3 .u-layout-cell-2 {
+  .u-section-3 .u-image-2 {
     min-height: 472px;
   }
 
@@ -277,8 +285,8 @@
     padding-right: 30px;
   }
 
-  .u-section-3 .u-layout-cell-2 {
-    min-height: 100px;
+  .u-section-3 .u-image-2 {
+    min-height: 362px;
   }
 
   .u-section-3 .u-container-layout-2 {
@@ -301,6 +309,10 @@
     padding-right: 10px;
   }
 
+  .u-section-3 .u-image-2 {
+    min-height: 543px;
+  }
+
   .u-section-3 .u-container-layout-2 {
     padding-left: 10px;
     padding-right: 10px;
@@ -313,6 +325,10 @@
   }
 
   .u-section-3 .u-image-1 {
+    min-height: 342px;
+  }
+
+  .u-section-3 .u-image-2 {
     min-height: 342px;
   }
 }
